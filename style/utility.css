@@ -1,0 +1,55 @@
+.font-title-lg {
+  font: var(--font-asap-title-lg);
+}
+
+.font-title-md {
+  font: var(--font-asap-title-md)
+}
+
+.font-title-sm {
+  font: var(--font-asap-title-sm);
+}
+
+.font-subtitle {
+  font: var(--font-inconsolata-subtitle);
+}
+
+.font-text-md {
+  font: var(--font-maven-pro-text-md);
+}
+
+.font-text-sm {
+  font: var(--font-maven-pro-text-sm);
+}
+
+.gap-8 {
+  gap: 8px;
+}
+
+.gap-16 {
+  gap: 16px;
+}
+
+.background-icons {
+  background-color: var(--color-gray300);
+  border-radius: 999px;
+  padding: 8px 16px;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-template-rows-two-lines {
+  grid-template-rows: auto auto;
+}
+
+.grid-template-columns-two-column {
+  grid-template-columns: auto auto;
+}
+
+.grid-auto-flow-column {
+  grid-auto-flow: column;
+}
+
+

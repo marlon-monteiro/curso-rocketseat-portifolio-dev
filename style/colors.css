@@ -1,0 +1,21 @@
+figure img.red {
+  filter: var(--color-red-icon); 
+}
+
+figure img.purple {
+  filter: var(--color-purple-icon); 
+}
+
+figure img.blue {
+  filter: var(--color-blue-icon); 
+}
+
+figure img.green {
+  filter: var(--color-green-icon); 
+}
+
+figure img.yellow {
+  filter: var(--color-yellow-icon); 
+}
+
+

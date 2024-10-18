@@ -6,10 +6,19 @@
 
 :root {
   --color-red: #e3646e;
+  --color-red-icon: invert(48%) sepia(12%) saturate(3778%) hue-rotate(315deg) brightness(92%) contrast(92%);
+
   --color-purple: #bb72e9;
+  --color-purple-icon: invert(48%) sepia(12%) saturate(3778%) hue-rotate(315deg) brightness(92%) contrast(92%);
+
   --color-blue: #3996db;
+  --color-blue-icon: invert(57%) sepia(98%) saturate(748%) hue-rotate(172deg) brightness(91%) contrast(99%);
+
   --color-green: #82bc4f;
+  --color-green-icon: invert(66%) sepia(27%) saturate(489%) hue-rotate(65deg) brightness(89%) contrast(90%);
+
   --color-yellow: #eabd5f;
+  --color-yellow-icon: invert(85%) sepia(100%) saturate(2000%) hue-rotate(20deg) brightness(130%) contrast(110%);
 
   --color-gray100: #0d0e11;
   --color-gray200: #16181d;
@@ -21,7 +30,7 @@
   --font-asap: "Asap", sans-serif;
   --font-asap-title-lg: 700 56px/120% var(--font-asap);
   --font-asap-title-md: 700 24px/120% var(--font-asap);
-  --font-asap-title-lg: 700 16px/120% var(--font-asap);
+  --font-asap-title-sm: 700 16px/120% var(--font-asap);
 
   --font-inconsolata: "Inconsolata", monospace;
   --font-inconsolata-subtitle: 400 20px/120% var(--font-inconsolata);
@@ -29,4 +38,12 @@
   --font-maven-pro: "Maven Pro", sans-serif;
   --font-maven-pro-text-md: 400 16px/140% var(--font-maven-pro);
   --font-maven-pro-text-sm: 400 14px/140% var(--font-maven-pro);
+
+  background-color: #29292E;
+}
+
+body {
+  width: 1366px;
+  height: 2934px;
+  margin: 0 80px;
 }

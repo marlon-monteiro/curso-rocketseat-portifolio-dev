@@ -1,0 +1,85 @@
+#section-one {
+  width: 1366px;
+  height: 750px;
+
+  background-image: url(/assets/background/Background_Intro.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  place-items: center;
+
+  main {
+    width: 1040px;
+    height: 447px;
+    place-items: center;
+  }
+
+  #div-full-stack-developer {
+    width: 680px;
+    height: 327px;
+    margin-bottom: 80px;
+
+    place-items: center;
+
+    img {
+      width: 112px;
+      height: 112px;
+      object-fit: cover;
+
+      margin-bottom: 56px;
+    }
+
+    h1 {
+      margin-top: 8px;
+      margin-bottom: 20px;
+    }
+  }
+
+  #div-programming-icons {
+    width: 754px;
+    height: 40px;
+
+    place-items: center;
+
+    figure {
+      justify-content: center;
+      align-items: center;
+
+      color: var(--color-gray500) ;
+      font: var(--font-maven-pro-text-md);
+
+      img {
+        width: 24px;
+        height: 24px;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .font-subtitle {
+    color: var(--color-gray500);
+
+    span {
+      color: var(--color-red);
+    }
+  }
+
+  .font-title-lg {
+    color: var(--color-gray500);
+  }
+
+  .font-text-sm {
+    color: var(--color-gray400);
+  }
+}
+
+
+/* #two {
+}
+
+#three {
+}
+
+#four {
+} */
