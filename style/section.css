@@ -96,17 +96,16 @@
 #section-two {
   justify-content: center;
   background-color: var(--color-gray200);
-  
+
   main {
     margin-top: 56px;
   }
-  
 }
 
 #section-two-titles {
   justify-content: center;
   justify-items: center;
-  
+
   .font-subtitle {
     margin-bottom: 8px;
     font: var(--font-inconsolata-subtitle);
@@ -122,13 +121,13 @@
 #section-two-images {
   width: 1040px;
   height: 584px;
-  
+
   margin-top: 56px;
   margin-bottom: 120px;
- 
+
   grid-template-columns: repeat(3, 1fr);
   gap: 24pxpx;
-  
+
   figure {
     width: 330px;
     height: 275px;
@@ -140,7 +139,7 @@
   figcaption {
     margin-top: 20px;
   }
-  
+
   img {
     width: 306px;
     height: 156px;
@@ -155,5 +154,72 @@
     margin-top: 8px;
     font: var(--font-maven-pro-text-sm);
     color: var(--color-gray500);
+  }
+}
+
+#section-three {
+  width: 1366px;
+  height: 480px;
+
+  background-color: var(--color-gray100);
+
+  justify-content: center;
+}
+
+#section-three-title {
+  width: 355px;
+  height: 61px;
+
+  justify-self: center;
+  justify-items: center;
+
+  margin-top: 88px;
+
+  span {
+    font: var(--font-inconsolata-subtitle);
+    color: var(--color-red);
+  }
+
+  h2 {
+    font: var(--font-asap-title-md);
+    color: var(--color-gray600);
+  }
+}
+
+#section-three-infos {
+  width: 888px;
+  height: 155px;
+
+  margin-bottom: 80px;
+
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+
+  figure {
+    width: 280px;
+    height: 155px;
+    border: 2px var(--color-gray200) solid;
+    border-radius: 12px;
+    padding: 20px;
+
+    img {
+      width: 48px;
+      height: 48px;
+      margin-bottom: 20px;
+    }
+
+    figcaption {
+      h2 {
+        font: var(--font-asap-title-sm);
+        color: var(--color-gray600);
+
+        margin-bottom: 8px;
+      }
+
+      h3 {
+        font: var(--font-maven-pro-text-sm);
+        color: var(--color-gray500);
+      }
+    }
   }
 }
