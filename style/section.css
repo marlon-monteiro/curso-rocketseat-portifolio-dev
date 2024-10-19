@@ -136,6 +136,10 @@
     background-color: var(--color-gray300);
   }
 
+  figure:hover {
+    border: 2px solid var(--color-gray400);
+  }
+
   figcaption {
     margin-top: 20px;
   }
@@ -295,5 +299,9 @@
       object-fit: cover;
       margin-left: auto;
     }
+  }
+
+  figure:hover {
+    border: 2px solid var(--color-blue);
   }
 }
